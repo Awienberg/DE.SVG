@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>DE.SVG</title>
+    <meta charset='utf-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    
+<body>
+    <div class="wrapper">
+        
+        <h1>DE.SVG.0 & DE.SVG.1</h1>
+
+        <svg xmlns='http://www.w3.org/2000/svg' viewbox='0 0 400 200' class='svg'>
+           <circle cx='200' cy='100' r='10' fill='yellow'/>
+           <ellipse cx='200' cy='100' rx='190' ry='90' stroke='blue' stroke.width='1' fill='transparent'/>
+        </svg>
+
+        <h2>1. What is a viewbox?</h2>
+       <p>
+           Definerer placeringen og størrelsen af svg-elementet(rektangel/lærred), som tegnes på skærmen.<br>
+           Værdierne er en liste med 4 numre: min-x, min-y, bredde og højde, adskildt med et mellemrum eller et komma. 
+       </p>
+
+       <h2>2. What is a viewport?</h2>
+       <p>
+           Det synlige område af en hjemmeside, som varierer alt efter hvilken enhed man benytter sig af.<br>
+           Bestemmer størrelsen på hvor meget man kan se, men ikke størrelsen på hvad der er synligt,<br>
+           når elementerne på en hjemmeside skaleres ned eller op.<br> 
+           Skrives i et meta tag<br>
+       </p>
+
+       <h2>3. How do they relate to each other?</h2>
+       <p>
+           De minder lidt om hinanden, men viewbox har to ekstra funktioner: pan og zoom.<br>
+           Størrelsen på viewbox er som standard 100%, hvis ikke defineret.<br>
+           Så derfor er det en god ide at bruge viewport, så man ikke ender med for stort billede eller tegning.<br>
+       </p>
+
+       <h2>4. How to scale an SVG drawing's appearance on a web page?</h2>
+       <p>
+           Ved at ændre størrelsen af viewbox og viewport, kan man ændre på skaleringen af SVG tegningen.<br>
+       </p>
+
+    </div>
+
+<footer>
+</footer>
+
+</body>
+    
+</html>
